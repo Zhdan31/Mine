@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+ python.books:
+  build:
+    context: python_books
+    dockerfile: book-dockerfile
+  restart: always
+  volumes:
+  - ./python_books:/app
+  ports:
+  - "8000:8000"
