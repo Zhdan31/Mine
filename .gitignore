@@ -1,1 +1,1 @@
-.terraform\providers\registry.terraform.io\hashicorp
+.terraform/providers/registry.terraform.io/hashicorp/*
